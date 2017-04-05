@@ -1,0 +1,27 @@
+{
+  "name": "mpc-app",
+  "version": "1.0.0",
+  "description": "Electorn app",
+  "main": "src/main.js",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelCosta/sample-electron.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Miguel Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelCosta/sample-electron/issues"
+  },
+  "homepage": "https://github.com/MiguelCosta/sample-electron#readme"
+}
