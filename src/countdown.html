@@ -1,11 +1,18 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="countdown.css">
-  </head>
-  <body>
-    <h1>It works</h1>
-    <script>
-      require('./renderer')
-    </script>
-  </body>
+
+<head>
+  <link rel="stylesheet" href="countdown.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Countdown</h1>
+    <div id="count" class="countdown"></div>
+    <button id="start" class="btn">Start button</button>
+  </div>
+  <script>
+    require('./renderer')
+  </script>
+</body>
+
 </html>
