@@ -18,8 +18,9 @@ app.on('ready', _ => {
     win.loadURL(`file://${__dirname}/countdown.html`)
 
     win.on('closed', _ => {
-      console.log('my-app closed!')
-      win = null
+      var i = windows.indexOf(win)
+      windows.splice(i, 1)
+      console.log('my-app closed: ' + i )
     })
     windows.push(win)
   })
